@@ -12,6 +12,65 @@ crie um site que vai fazer a gestão de estoque, gestão de RH, gestão de compr
 Tratar senhas de usuários com hash bcrypt
 O sistema deve ter uma página de históricos e manter sempre os logs de qualquer alteração feita por 
 qualquer usuário, para auditorias futuras.
+- Permitir que os usuários acessem ao sistema utilizando seus dados de acesso.
+  
+Ações do ator 
+
+Resposta do sistema 
+
+1 
+
+Acessa a tela de login. 
+
+Exibe os campos de CPF, nome completo e senha. 
+
+2 
+
+Preenche o CPF, nome completo e senha. 
+
+Verifica os dados informados. 
+
+3 
+
+Solicita o acesso 
+
+Valida os dados e identifica o perfil do usuário. 
+
+4 
+
+- 
+
+Libera o acesso às funções disponíveis para o perfil. 
+
+- Registrar a saída de produtos do estoque.
+- 
+Ações do ator 
+
+Resposta do sistema 
+
+1 
+
+Seleciona o produto. 
+
+Exibe os dados do produto. 
+
+2 
+
+Informa a quantidade. 
+
+Verifica a disponibilidade em estoque. 
+
+3 
+
+Confirma a saída. 
+
+Registra a saída do produto. 
+
+4 
+
+ 
+
+Atualiza a quantidade disponível no estoque. 
 
 
 ##### Regras Globais
