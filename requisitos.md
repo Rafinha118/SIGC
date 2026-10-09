@@ -12,9 +12,10 @@ crie um site que vai fazer a gestão de estoque, gestão de RH, gestão de compr
 Tratar senhas de usuários com hash bcrypt
 O sistema deve ter uma página de históricos e manter sempre os logs de qualquer alteração feita por 
 qualquer usuário, para auditorias futuras.
-Insira suas regras de negocio.
+
 
 ##### Regras Globais
+- quero que sempre use essa fonte https://fonts.google.com/specimen/Isometra?preview.script=Latn
 - Use sempre PDO para conexão e queries no MySQL para evitar SQL Injections
 - Mantenha o código limpo e comente apenas logicas complexas.
 - Separe os arquivos de forma lógica: um arquivo para conexão com a base (bd.php) e scripts de backend isolados e views em HTML5/PHP, nunca faça o sistema como um monolito, deixe sempre separados todas as regras para facilitar os futuros upgrades.
