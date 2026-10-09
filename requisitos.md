@@ -1,6 +1,7 @@
 # Sistema Integrado de Gestão Comercial
 
 ## Objetivos
+crie um site que vai fazer a gestão de estoque, gestão de RH, gestão de compra/vendas, organizar funções de cada colaborador, onde o administrador vai ter o histórico de auditoria de todos os setores, e dashboards financeiros e etc.
 
 ### Stack Tecnlógico
 - Backend: PHP estruturado com sessões nativas
@@ -8,7 +9,7 @@
 - Frontend: HTML5, PHP, CSS, Tailwind CSS
 
 #### Regras de negócio (CORE)
-Tratar senhas de usuários com hash bcript
+Tratar senhas de usuários com hash bcrypt
 O sistema deve ter uma página de históricos e manter sempre os logs de qualquer alteração feita por 
 qualquer usuário, para auditorias futuras.
 Insira suas regras de negocio.
