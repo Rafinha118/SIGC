@@ -382,5 +382,5 @@ Exibe o faturamento do período.
 - Separe os arquivos de forma lógica: um arquivo para conexão com a base (bd.php) e scripts de backend isolados e views em HTML5/PHP, nunca faça o sistema como um monolito, deixe sempre separados todas as regras para facilitar os futuros upgrades. Organize o código em módulos independentes, separando as funcionalidades de produtos, estoque, vendas, usuários e relatórios, conforme os requisitos do projeto. Evite duplicação de código e facilite futuras atualizações.
  - Estilize as telas em Tailwind de forma responsiva priorizando o MobileFrist, garantindo que tabelas, formulários, menus e painéis funcionem corretamente em telas pequenas.
  - Retorne sempre as mensagens de erros de forma claras na interface para o usuário (TOAST)
- - sempre trate as mensagens de caixa de mensagens nativas do navegador em um MODAL
+ - Sempre substitua as caixas de diálogo nativas do navegador por modais personalizados, mantendo a identidade visual do Lee Market.
 
