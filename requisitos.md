@@ -73,7 +73,7 @@ Registra a saída do produto.
 Atualiza a quantidade disponível no estoque. 
 
 
--Registra as vendas realizadas no 
+- Registra as vendas realizadas no 
 supermercado.
 
 Ações do ator 
@@ -165,7 +165,6 @@ Confirma a alteração.
 Atualiza os dados do estoque. 
 
 - Permitir a análise dos relatórios de vendas de determinado período. 
-
 
 Ações do ator 
 
