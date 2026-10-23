@@ -74,11 +74,12 @@ Atualiza a quantidade disponível no estoque.
 
 
 ##### Regras Globais
-- quero que sempre use essa fonte https://fonts.google.com/specimen/Isometra?preview.script=Latn
+- quero que sempre use essa fonte https://fonts.google.com/specimen/Isometra?preview.script=Latn e manter a tipografia consistente em todas as telas do sistema
+- Utilize a seguinte paleta de cores em todo o sistema Lee Market: azul-escuro #111184 como cor principal, amarelo #FFD32C para destaques e botões, branco #FFFFFF para fundos e preto #000000 para textos e ícones. Mantenha a identidade visual consistente em todas as páginas.
 - Use sempre PDO para conexão e queries no MySQL para evitar SQL Injections
 - Mantenha o código limpo e comente apenas logicas complexas.
-- Separe os arquivos de forma lógica: um arquivo para conexão com a base (bd.php) e scripts de backend isolados e views em HTML5/PHP, nunca faça o sistema como um monolito, deixe sempre separados todas as regras para facilitar os futuros upgrades.
- - Estilize as telas em Tailwind de forma responsiva priorizando o MobileFrist.
+- Separe os arquivos de forma lógica: um arquivo para conexão com a base (bd.php) e scripts de backend isolados e views em HTML5/PHP, nunca faça o sistema como um monolito, deixe sempre separados todas as regras para facilitar os futuros upgrades. Organize o código em módulos independentes, separando as funcionalidades de produtos, estoque, vendas, usuários e relatórios, conforme os requisitos do projeto. Evite duplicação de código e facilite futuras atualizações.
+ - Estilize as telas em Tailwind de forma responsiva priorizando o MobileFrist, garantindo que tabelas, formulários, menus e painéis funcionem corretamente em telas pequenas.
  - Retorne sempre as mensagens de erros de forma claras na interface para o usuário (TOAST)
  - sempre trate as mensagens de caixa de mensagens nativas do navegador em um MODAL
 
