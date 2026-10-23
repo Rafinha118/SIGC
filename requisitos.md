@@ -38,12 +38,12 @@ Valida os dados e identifica o perfil do usuário.
 
 4 
 
-- 
+
 
 Libera o acesso às funções disponíveis para o perfil. 
 
 - Registrar a saída de produtos do estoque.
-- 
+
 Ações do ator 
 
 Resposta do sistema 
@@ -71,6 +71,38 @@ Registra a saída do produto.
  
 
 Atualiza a quantidade disponível no estoque. 
+
+
+-Registra as vendas realizadas no 
+supermercado.
+
+Ações do ator 
+
+Resposta do sistema
+
+1
+
+Seleciona os produtos. 
+
+Exibe os produtos e seus preços.
+
+2
+
+Informa as quantidades.
+
+Calcula o valor total da venda.
+
+3
+
+Informa a forma de pagamento.
+
+Registra a venda.
+
+4
+
+Confirma a venda.
+
+Atualiza o estoque e finaliza a venda.
 
 
 ##### Regras Globais
